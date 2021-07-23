@@ -1,0 +1,5 @@
+
+# BEGIN - PSPInstaller RepoPrep Settings
+php_value upload_max_filesize 10M
+php_value post_max_size 15M
+# END - PSPInstaller RepoPrep Settings

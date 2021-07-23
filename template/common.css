@@ -1,0 +1,365 @@
+@charset "utf-8";
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+body, td, div, th, tr {
+	font-size: 10pt;
+	cursor: default;
+}
+
+body, td, div, th, tr, input, select, textarea {
+	font-family:"Lucida Grande","Segoe UI",Verdana,Arial,"Bitstream Vera Sans",Helvetica,sans-serif;
+}
+
+a img {
+	border: 0px;
+}
+
+a {
+	color: #036;
+}
+
+h1 {
+	margin: 0px;
+	color: #FFF;
+	font-size: 18pt;
+	text-shadow: #000 1px 1px 3px;
+	font-weight: normal;
+}
+
+h1 span {
+	font-size: 14pt;
+}
+
+h2 {
+	margin: 0px 0px 20px 0px;
+	font-size: 14pt;
+}
+
+h3 {
+	font-size: 12pt;
+	margin: -15px 0px 20px 0px;
+}
+
+h4 {
+	font-size: 12pt;
+	margin: 20px 0px 5px 0px;
+}
+
+select, .btn, .txt, textarea {
+	border: 1px solid #BBB;
+	background-color: #FFF;
+	color: #464646;
+	font-size: 9pt;
+	padding: 1px 5px;
+}
+
+a.btn {
+	text-decoration: none;
+	float: left;
+}
+
+a.more {
+	float: right;
+}
+
+select:hover, .btn:hover, .txt:hover, textarea:hover {
+	border-color: #666;
+	color: #000;
+}
+
+select, .btn {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn {
+	cursor: pointer;
+	margin: 0px 5px 5px 0px;
+	padding: 3px 10px;
+}
+
+#header {
+	background-color:#00529B;
+	padding: 10px;
+}
+
+.statusmsg {
+	padding: 4px;
+	font-weight: bold;
+}
+
+.statusmsg .close {
+	float: right;
+	padding: 4px;
+	font-weight: bold;
+	margin: -5px 5px 0px 0px;
+	cursor: pointer;
+}
+
+.info, .success, .warning, .error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('img/info.png');
+}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('img/success.png');
+}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('img/warning.png');
+}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('img/error.png');
+}
+
+.statusmsg ul {
+	margin: 2px;
+	font-weight: normal;
+}
+
+.logout {
+	float: right;
+	margin: 10px 10px 0px 0px;
+	color: #FFF;
+}
+
+.logout a {
+	color: #FFF;
+}
+
+.center {
+	text-align:center;
+}
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+
+#all {
+	height:auto;
+	min-height:100%;
+}
+
+#content {
+	padding: 30px;
+}
+
+#footer {
+	position: relative;
+	clear: both;
+	margin-top: -37px;
+	padding: 10px;
+	color: #666;
+	text-align: right;
+}
+
+#footer a {
+	color: #666;
+}
+
+.uploadform {
+	border: 1px solid #00529B;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	width: 800px;
+	margin-bottom: 20px;
+}
+
+.uploadform > h3 {
+	background-color: #00529B;
+	margin: 0px;
+	padding: 5px;
+	color: #FFF;
+	font-size: 10pt;
+	-webkit-border-bottom-left-radius:0;
+	-webkit-border-bottom-right-radius:0;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-khtml-border-bottom-left-radius:0;
+	-khtml-border-bottom-right-radius:0;
+	-khtml-border-top-left-radius:5px;
+	-khtml-border-top-right-radius:5px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.uploadform > .padding {
+	padding: 5px;
+}
+
+.uploadform table.uploadtable {
+	width: 100%;
+}
+
+.uploadform table.uploadtable th, .uploadform table.uploadtable td {
+	padding: 6px;
+	vertical-align: top;
+}
+
+.uploadform table.uploadtable th {
+	font-weight: normal;
+	width: 210px;
+	text-align: left;
+}
+
+.uploadform input.w, .uploadform textarea {
+	width: 275px;
+}
+
+img.captcha {
+	border: 1px solid #000;
+	margin: 4px 0px;
+	width: 150px;
+	height: 60px;
+}
+
+input.captcha {
+	margin: 4px 0px;
+	text-transform: uppercase;
+}
+
+.descr {
+	font-style: italic;
+	color: #666666;
+	display: block;
+	margin-top: 2px;
+	font-weight: normal;
+}
+
+#uploadarea .descr {
+	display: block;
+	clear:left;
+}
+
+#swfupload_placeholder {
+	float: left;
+}
+
+#file_upload {
+	float: left;
+	margin: 4px 5px 0px 0px;
+}
+
+#fsUploadProgress {
+	clear: left;
+}
+
+.progressWrapper {
+	width: 357px;
+	overflow: hidden;
+}
+
+.progressContainer {
+	margin: 5px;
+	padding: 4px;
+	border: solid 1px #E8E8E8;
+	background-color: #F7F7F7;
+	overflow: hidden;
+}
+/* Message */
+.message {
+	margin: 1em 0;
+	padding: 10px 20px;
+	border: solid 1px #FFDD99;
+	background-color: #FFFFCC;
+	overflow: hidden;
+}
+/* Error */
+.red {
+	border: solid 1px #B50000;
+	background-color: #FFEBEB;
+}
+
+/* Current */
+.green {
+	border: solid 1px #DDF0DD;
+	background-color: #EBFFEB;
+}
+
+/* Complete */
+.blue {
+	border: solid 1px #CEE2F2;
+	background-color: #F0F5FF;
+}
+
+.progressName {
+	font-size: 8pt;
+	font-weight: 700;
+	color: #555;
+	width: 323px;
+	height: 14px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 2px;
+	background-color: blue;
+	margin-top: 2px;
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	margin-top: 2px;
+	width: 337px;
+	font-size: 7pt;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}
+
+a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-image: url(../images/cancelbutton.gif);
+	background-repeat: no-repeat;
+	background-position: -14px 0px;
+	float: right;
+}
+
+a.progressCancel:hover {
+	background-position: 0px 0px;
+}
